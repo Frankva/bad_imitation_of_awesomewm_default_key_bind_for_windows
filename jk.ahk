@@ -5,7 +5,7 @@ LWin & k::ShiftAltTab
 {
     Send "{LWin}"
     
-    Send "application: "
+    Send "app: "
 }
 ^j::Down
 ^k::Up
