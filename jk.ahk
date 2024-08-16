@@ -1,12 +1,7 @@
 LWin & j::AltTab
 LWin & k::ShiftAltTab
 #Enter::Run "C:\Program Files\Git\git-bash.exe"
-#p::
-{
-    Send "{LWin}"
-    
-    Send "application: "
-}
+#p::#s
 ^j::Down
 ^k::Up
 #m::#Up
@@ -14,5 +9,6 @@ LWin & k::ShiftAltTab
 #h::#Left
 #+l::#Right
 #+c::!F4
-#1::^#Left
-#2::^#Right
+#a::^#Left
+#d::^#Right
+#o::#+Left
